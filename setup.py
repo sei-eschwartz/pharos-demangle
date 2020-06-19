@@ -16,7 +16,7 @@ import sys
 
 __version__ = '1.2'
 
-libraries = ['boost_python'] if sys.version_info[0] < 3 else ['boost_python38-vc142-mt-gd-x64']
+libraries = ['boost_python'] if sys.version_info[0] < 3 else ['boost_python38-vc142-mt-gd-x64-1_72']
 libraries += ['boost_system','boost_filesystem','boost_program_options']
 
 class BuildExt(build_ext):
